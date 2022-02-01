@@ -130,8 +130,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton('⏭️', callback_data="skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/VEXERA_UPDATES"),
-                      InlineKeyboardButton("• Group", url=f"https://t.me/SNEHABHI_SERVER"),
+                      InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/our_powerfull_bots"),
+                      InlineKeyboardButton("• Group", url=f"https://t.me/CHATTINGxGROUP"),
                   ],[
                       InlineKeyboardButton("🗑 Close", callback_data="cls")],
                   ]
@@ -240,13 +240,13 @@ async def play(c: Client, m: Message):
         if len(m.command) < 2:
          await m.reply_photo(
                      photo=f"{IMG_5}",
-                    caption="💬**Usage: /play Give a Title Song To Play Music or /vplay for Video Play**"
+                    caption="💬**Usage: /play Give a Title Song To Play Music**"
                     ,
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/VEXERA_UPDATES"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/SNEHABHI_SERVER")
+                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/our_powerfull_bots"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/CHATTINGxGROUP")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
